@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tia Bloc-Notes</title>
+    <link rel="stylesheet" href="styles.css">
+	<!-- <link rel="icon" href="https://example.com/mon-icone.ico" type="image/x-icon"> -->
+	<link rel="icon" type="image/png" href="useravatar.png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Super Bloc-Notes</h1>
+            <button id="newFormBtn" class="btn btn-primary">+ Nouveau Formulaire</button>
+            <button id="resetDbBtn" class="btn btn-primary">Réinitialiser BD</button>
+        </header>
+
+        <div class="forms-container" id="activeForms">
+            <!-- Les formulaires actifs apparaîtront ici -->
+        </div>
+
+        <div class="saved-forms">
+            <h2>Formulaires Sauvegardés</h2>
+            <div class="form-list" id="savedFormsList">
+                <!-- Les formulaires sauvegardés apparaîtront ici -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

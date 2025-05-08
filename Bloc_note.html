@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tia Bloc-Notes</title>
+    <link rel="icon" type="image/png" href="useravatar.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="backgroud">
+    <main class="main-page">
+    <div class="container">
+        <header>
+            <h1>Super Bloc-Notes</h1>
+            <div id="horloge"><bold></div>
+            <div>
+                <button id="newFormBtn" class="btn btn-primary">+ Nouveau</button>
+                <button id="resetDbBtn" class="btn btn-warning">Réinitialiser BD</button>
+            </div>
+        </header>
+
+        <section class="active-forms" id="activeForms">
+            <!-- Les formulaires actifs apparaîtront ici -->
+        </section>
+
+        <section class="saved-forms">
+            <h2>Notes Sauvegardées</h2>
+            <div class="form-list" id="savedFormsList">
+                <!-- Les formulaires sauvegardés apparaîtront ici -->
+            </div>
+        </section>
+    </div>
+<script src="scripts.js"></script>
+</main>
+</div>
+</body>
+</html>
