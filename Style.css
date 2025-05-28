@@ -223,7 +223,7 @@ transform: translateY(-2px);
 }
 
  .main-page {
-    /* background: url(U:/dev/Project/BN_2/bg-dark.jpg) no-repeat center center; */
+    /* background: url(bg-dark.jpg) no-repeat center center; */
     /* background-size: 100% 50%; L'image couvre toute la page */
      /* background-position: center; Centrer l'image  */
     font-family: Arial, sans-serif;
@@ -232,13 +232,13 @@ transform: translateY(-2px);
     padding: 0;
     margin: 0;
     height: 97vh; /* Faire en sorte que le corps de la page prenne toute la hauteur de la fenêtre */
-    background: url(U:/dev/Project/BN_2/bg-light.jpg) no-repeat center center;
+    background: url(bg-light.jpg) no-repeat center center;
     background-size: 70% 100%;
     z-index: 10
 } 
 
 .backgroud {
-    /* background-image: url('U:/dev/Project/BN_2/bg-light.jpg'), url('U:/dev/Project/BN_2/bg-dark.jpg'); */
+    /* background-image: url('bg-light.jpg'), url('bg-dark.jpg'); */
     background-size: 100% 100%;
     /* background-position: left, right; */
     background-color :#e6b949;
